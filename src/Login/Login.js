@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { AuthContext } from "../AuthContext";
 import { Redirect } from "react-router-dom";
 import "./Login.css";
-import { Link } from "react-router-dom";
 
 function Login({ location }) {
   const { isAuthenticated, setAuthenticated } = useContext(AuthContext);
