@@ -10,6 +10,7 @@ function Home() {
       "https://c6gddaht9j.execute-api.ca-central-1.amazonaws.com/dev/musics"
     );
     const json = await response.json();
+
     setMusics(json);
   }
 
