@@ -15,6 +15,7 @@ function Home() {
 
   useEffect(() => {
     getInfo();
+    // eslint-disable-next-line
   }, []);
 
   return (

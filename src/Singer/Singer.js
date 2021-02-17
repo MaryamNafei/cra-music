@@ -17,6 +17,7 @@ function Singer() {
 
   useEffect(() => {
     getInfo();
+    // eslint-disable-next-line
   }, []);
 
   if (musics.length === 0) {
