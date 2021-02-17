@@ -18,6 +18,7 @@ function Song() {
 
   useEffect(() => {
     getInfo();
+    // eslint-disable-next-line
   }, []);
 
   return (
